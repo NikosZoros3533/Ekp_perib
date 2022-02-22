@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+    
+}
+
+body{
+    background:#fcde67;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 3px white;
+    
+}
+
+header{
+    border-bottom: 2px solid #5bccf6;
+    background:#5bccf6;
+    color:#030e12;
+    padding: 20px;
+    
+}
+
+
+a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color:#3c849e;
+    font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+a:hover{
+    color:#eb7200;
+    cursor: pointer;
+}
+
+
+.nav{    
+    float: left;
+    background:#fcde67;
+      
+}
+.welcome{
+    font-size:xx-large;
+    color:#030e12;
+    padding: 20px;
+    
+    
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin: 40px;
+
+}
+img{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position:absolute;
+    top:50%;
+    left:25%;       
+}
+
+#ann{
+    border-bottom: 2px solid black;
+
+}
+
+.container{
+    background:#5bccf6;
+    margin-left: 300px;
+    height: 180%;
+    border-left: 2px solid black;
+
+}
+
+.announc{
+    padding-bottom: 100px;
+}
+.titleofann{
+    font-size: 30px;
+
+}
+.contentofann{
+    font-size: 20px;
+    margin-left:60px;
+    margin-top:30px;
+    
+
+}
+.lineofann{
+    margin:40px;
+}
+.jump{
+    font-size: 60px;
+    text-align: center;
+}
+.box1{
+    background:#5bccf6;
+    padding: 30px;
+    padding-left: 30px;
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left:400px;
+    top:-250px;
+    margin: 30px;
+    border-radius: 20%;
+      
+}
+.form-section{
+    font-size: 20px;  
+     
+}
+.heads-up{
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+form label{
+    position: relative;
+    left: 0px;
+}
+form input,form textarea{
+    position: absolute;
+    left: 200px;
+
+}
+button{
+    position:relative;
+    bottom: -13rem;
+    left: 20rem;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    background:rgb(9, 7, 109); 
+    color: white;
+   
+}
+button:hover{
+    background: lightblue;
+}
+#second-head{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+.contact-with-mail{
+    margin: 20px;
+    font-size: x-large;
+}
+
+.container2{
+    background:#5bccf6;
+    margin-left: 300px;
+    height: 300%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+
+}
+
+
+ol{
+    margin-left: 7rem;
+}
+#ekf{
+    margin-left: 9rem;
+}
+#date{
+    color: red;
+}
